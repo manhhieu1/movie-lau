@@ -1,5 +1,4 @@
 import ReactPlayer from "react-player";
-import React, { useState } from "react";
 
 interface Props {
   url: string;
