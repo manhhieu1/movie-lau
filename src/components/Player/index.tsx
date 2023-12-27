@@ -31,7 +31,7 @@ const Player = (props: Props) => {
                 kind: "subtitles",
                 src: subTileURL,
                 srcLang: "en",
-                default: false,
+                default: true,
                 label: "English",
               },
             ],
