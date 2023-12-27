@@ -29,3 +29,16 @@ code {
 .url_input::placeholder {
   color: palevioletred;
 }
+
+button {
+  height: 30px;
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+  color: palevioletred;
+  padding: 0 5px;
+  margin: 15px 0
+}
+
+.button:focus {
+  outline: 2px solid pink;
+}
