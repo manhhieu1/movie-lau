@@ -15,6 +15,7 @@ function App() {
   useEffect(() => {
     setUrl(params.get("url") || "");
     setSubTitleUrl(params.get("subtitle") || "");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params.get("url"), params.get("subtitle")]);
   return (
     <div className="App">
